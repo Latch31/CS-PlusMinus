@@ -44,7 +44,7 @@ namespace lesson1
                 {
                     Console.WriteLine("your number is too low !");
                 }
-                else
+                else if (nbEntry > nbGuess)
                 {
                     Console.WriteLine("your number is too high !");
                 }
